@@ -307,7 +307,7 @@ body {
     }
 
     .masonry {
-      @apply grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 text-[#F5F5F7];
+      @apply grid grid-cols-1 lg:grid-cols-2 gap-3 mt-20 text-[#F5F5F7];
 
       .left-column {
         @apply flex flex-col justify-between gap-5 opacity-0 -translate-y-5;
@@ -334,7 +334,7 @@ body {
       }
 
       .right-column {
-        @apply flex flex-col justify-between gap-5 opacity-0 -translate-y-5;
+        @apply flex flex-col justify-between gap-3 opacity-0 -translate-y-5 ;
 
         p {
           @apply font-semibold text-4xl max-w-2xs;
@@ -411,6 +411,10 @@ body {
         span {
           @apply text-primary mx-0.5;
         }
+
+      }
+      img {
+        @apply mr-[25px];
       }
     }
 
@@ -425,7 +429,7 @@ body {
         @apply lg:divide-x flex flex-col lg:flex-row gap-2.5;
 
         li {
-          @apply lg:px-5 cursor-pointer hover:text-primary transition-all duration-300 ease-in-out;
+          @apply lg:px-5 cursor-pointer hover:text-primary transition-all duration-300 ease-in-out mr-[10px];
         }
       }
     }
