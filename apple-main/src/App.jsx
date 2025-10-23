@@ -8,7 +8,7 @@ import gsap from 'gsap'
 import { ScrollTrigger, SplitText } from 'gsap/all';
 
 import Performance from './components/Performance';
-import Showcase from './components/ShowCase';
+import Showcase from './components/Showcase';
 import Features from './components/Features';
 import Highlight from './components/Highlight';
 import Footer from './components/Footer';
