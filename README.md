@@ -5,7 +5,7 @@
   💻 <a href="https://github.com/KausHalJHa-04/APPLE_Landing-page.git" target="_blank">GitHub Repository</a>
 </p>
 
-<hr/>
+<hr/> 
 
 <h2>📋 Table of Contents</h2>
 <ul>
